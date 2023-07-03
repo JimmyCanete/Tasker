@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1045734918146",
+    "firebase_url": "https://tasker-84939-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tasker-84939",
+    "storage_bucket": "tasker-84939.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045734918146:android:bf017b0376e0c4495aff1b",
+        "android_client_info": {
+          "package_name": "com.example.tasker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045734918146-8ham4fps25lv0ccogf8asj3pn3rsnkns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoS7u8dG2cUya1aR4Katw74k_1w6u719Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045734918146-8ham4fps25lv0ccogf8asj3pn3rsnkns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
