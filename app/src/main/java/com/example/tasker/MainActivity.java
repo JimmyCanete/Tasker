@@ -8,30 +8,25 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.tasker.Activity.Login;
+import com.example.tasker.Activity.Upload;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
-
-    private FirebaseAuth mAuth;
-    private Button userOptions;
-    private Button logout_btn;
+    FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mAuth = FirebaseAuth.getInstance();
-        logout_btn = findViewById(R.id.logout_btn);
+        fab = findViewById(R.id.fab);
 
-        //Logout method
-        logout_btn.setOnClickListener(new View.OnClickListener() {
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mAuth.signOut();
-
-                Intent intent = new Intent(MainActivity.this, Login.class);
+                Intent intent = new Intent(MainActivity.this, Upload.class);
                 startActivity(intent);
                 finish();
             }
